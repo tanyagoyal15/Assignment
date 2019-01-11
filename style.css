@@ -1,0 +1,317 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: auto;
+	height: 750px;
+	margin: 70px 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	/*border:2px solid black;*/
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar {
+	width: 35%;
+	height: 750px;
+	float: left;
+	margin-left: 0;
+}
+
+#sidebar #menu {
+	width: 20%;
+	height: 750px;
+	float: left;
+	background-color: white;
+	text-align: center;
+	padding-top: 12px;
+	/*padding-right: 5px;
+	padding-left: 5px;*/
+	-webkit-box-shadow: 6px 0 5px -1px #F0F0F0;
+    box-shadow: 6px 0 5px -1px #F0F0F0;
+
+}
+
+#menu ul {
+	margin-left: 0;
+	padding-left:0; 
+}
+
+#menu ul li {
+	list-style: none;
+	position: relative;
+	text-align: center;
+	padding-bottom: 18px;
+	padding-right:20px;
+}
+
+#menu ul li:last-child {
+	padding-bottom: 125px;
+}
+
+#menu ul li img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+#sidebar #courses {
+	width: auto;
+	height: 750px;
+	background-color: white;
+	padding-top: 12px;
+	/*padding-right: 5px;*/
+	padding-left: 65px;
+	margin-left: 40px;
+}
+
+.design-container {
+	margin-top: 10px;
+}
+
+.design-container .design-heading p {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	color: grey;
+}
+
+.design-content ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.design-content li {
+	list-style: none;
+}
+
+.design-content li img {
+	width: 60px;
+	height: 50px;
+	float: left;
+	padding-right: 10px;
+	border-radius: 4px;
+}
+
+.design-content li label {
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 0.5px;
+	margin: 0;
+}
+
+.design-content li p {
+	font-size: 12px;
+	font-weight: 200;
+	color: grey;
+	padding-right: 5px;
+}
+
+
+.development-container {
+	margin-top: 10px;
+}
+
+.development-container .development-heading p {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	color: grey;
+}
+
+.development-content ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.development-content li {
+	list-style: none;
+}
+
+.development-content li img {
+	width: 60px;
+	height: 50px;
+	float: left;
+	padding-right: 10px;
+	border-radius: 4px;
+}
+
+.development-content li label {
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 0.5px;
+	margin: 0;
+}
+
+.development-content li p {
+	font-size: 12px;
+	font-weight: 200;
+	color: grey;
+	padding-right: 4px;
+}
+
+#main-body {
+	width: auto;
+	height: 100%;
+	background-color: #F4F4FF;
+}
+
+
+#main-body .header {
+	margin: 0;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 205px;
+	margin-left: 200px;
+	padding-bottom: 20px;
+}
+
+.featured-courses-container {
+	width: auto;
+	float: left;
+}
+
+.featured-courses-container p {
+	display: inline;
+	width: auto;
+
+}
+
+.instructor-container ul {
+	float: right;
+}
+
+.instructor-container ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 10px;
+}
+
+.item-2 ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.item-2 ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 3px;
+}
+
+
+.video-section {
+	width: auto;
+	/*argin:15px;*/
+	border-radius: 10px;
+	/*padding-right: 5px;*/
+	padding-left: 215px;
+	margin-left: 200px;
+	padding-bottom: 10px;
+}
+
+.video-lists ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.video-lists li {
+	list-style: none;
+}
+
+.video-lists li img {
+	width: 50px;
+	height: 40px;
+	float: left;
+	padding-right: 10px;
+	border-radius: 4px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.video-lists li label {
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 0px;
+	margin: 0;
+}
+
+.video-lists li p {
+	font-size: 12px;
+	font-weight: 200;
+	color: grey;
+	padding-right: 5px;
+}
+
+.courses-images ul {
+	margin-left: 0;
+	padding-left: 10px;
+}
+
+.courses-images ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 4px;
+	padding-top: 0;
+}
+
+.courses-images ul li .main-image{
+	width: 80px;
+	height: 120px;
+	position: relative;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.courses-images ul li .above-image {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.details {
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 340px;
+}
+.social ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.social ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 4px;
+}
+
+.reviews ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.reviews ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 4px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.lesson ul {
+	margin-left: 15px;
+	padding-left: 0;
+}
+
+.lesson ul li {
+	padding-top: 0;
+	font-size: 12px;
+	color: grey;
+}
